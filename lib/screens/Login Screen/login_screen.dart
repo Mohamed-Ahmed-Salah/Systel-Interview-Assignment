@@ -52,8 +52,6 @@ class _LoginScreenState extends State<LoginScreen> {
                   .readLocalStatement(emailController.text);
             }
             clearText();
-            print('cleared');
-
             Provider.of<UserHistoryProvider>(context, listen: false)
                 .getHistory();
 
@@ -79,8 +77,6 @@ class _LoginScreenState extends State<LoginScreen> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 25.0),
                     child: Column(
-                      /* mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.center,*/
                       children: [
                         const Spacer(
                           flex: 2,
