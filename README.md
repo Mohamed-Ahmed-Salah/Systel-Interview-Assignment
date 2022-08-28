@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a Flutter application cosisting of 2 pages.
+This project is a Flutter application consisting of 2 pages a login page and home page where logged in user views their data from a local storage.
 
 ## Video
 
